@@ -11,4 +11,18 @@ export class HomePage {
 
   }
 
+  // mengarah ke halaman profile
+  goToProfile(): void {
+    this.navCtrl.push('ProfilePage');
+  }
+
+  // mengarah ke event baru
+  goToCreate(): void {
+    this.navCtrl.push('EventCreatePage');
+  }
+
+  //mengarah ke semua event
+  goToList(): void {
+    this.navCtrl.push('EventListPage');
+  }
 }
